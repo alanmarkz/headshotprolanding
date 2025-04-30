@@ -21,7 +21,7 @@ import { Menu } from 'lucide-vue-next';
             </div>
         </div>
         <div class="flex gap-5">
-            <button class="bg-[#1C145D] text-white font-medium p-4 py-1 rounded-md">
+            <button class="bg-[#1C145D] text-white font-medium text-sm p-4 py-1 rounded-md">
                 Create
             </button>
             <button class="border-[0.2px] border-[#e7e7e7] p-3 py-1 rounded-md">

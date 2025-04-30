@@ -4,9 +4,12 @@ import { ArrowRight } from 'lucide-vue-next';
 
 
 <template>
-    <div class="pt-34 flex items-start md:items-center justify-center flex-col w-full gap-4 p-4 bg-gray-50">
+    <div class="pt-34 flex items-start md:items-center justify-between  w-full gap-20 p-4 bg-gray-50 overflow-hidden h-[60vh]">
+        <div class="flex-[0.5] ml-[-10vw] hidden md:block" >
+            <img src="/amelia-hero-4.431832a.png"  class="h-full object-cover"/>
+        </div>
         <div
-            class="flex items-start md:items-center justify-center flex-col w-full gap-4 p-4 bg-gray-50 max-w-[700px] text-center">
+            class="flex flex-1 items-start md:items-center justify-center flex-col w-full gap-4 p-4 bg-gray-50 max-w-[700px] text-center">
 
             <div class="text-gray-400 text-sm font-semibold">
                 The #1 AI Headshot Generator for Professional Headshots
@@ -46,11 +49,19 @@ import { ArrowRight } from 'lucide-vue-next';
                 </div>
             </div>
             <div class="marquee-container">
-                <div class="marquee flex gap-3 scale-[4]">
+                <div class="marquee flex gap-3 scale-[3]">
                     <img src="/logo-cloud-horizontal.e5e3772.png" alt="logo" class="marquee-img" />
                     <img src="/logo-cloud-horizontal.e5e3772.png" alt="logo" class="marquee-img" />
                 </div>
             </div>
+            <div class="mt-[-30px] md:hidden">
+                <img src="/hero-male-female.3db6e78.png" />
+            </div>
+
+        </div>
+
+        <div class="flex-[0.5] mr-[-10vw]  justify-end hidden md:flex">
+            <img src="/hero-danny-6.dc40908.png" class="h-full object-cover" />
         </div>
     </div>
 </template>

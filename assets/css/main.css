@@ -29,7 +29,7 @@ html {
     display: flex;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 18s linear infinite;
+    animation: marquee 40s linear infinite;
 }
 .marquee-img {
     min-width: 100%;
