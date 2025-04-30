@@ -1,1 +1,57 @@
 @import "tailwindcss";
+
+/* Apply Plus Jakarta Sans font throughout the application */
+body,
+html {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Utility class for explicitly applying the font */
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Marquee effect for logo cloud */
+.marquee-container {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+ 
+}
+.marquee {
+    display: flex;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 18s linear infinite;
+}
+.marquee-img {
+    min-width: 100%;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(80%);
+}
+
+.marquee img {
+    display: inline-block;
+    min-width: 100%;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(80%);
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
